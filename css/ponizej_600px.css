@@ -1,0 +1,141 @@
+*{
+	box-sizing: border-box;
+}
+
+
+html, body {
+	overflow: auto;
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+.header{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+.inner-header{
+	background: #1A1C22;
+	height: 100px;
+}
+
+.sidebar_contents{
+	min-height: 400px;
+}
+
+.sidebar {
+	width:100%;
+	float:left;
+	padding-top: 115px;
+}
+
+.inner-sidebar{
+	background: #6C757D;
+	height:50vh;
+/*	minimalna 400px - 15*6(odstepy) = 310 / 6 = 51, wezme 130px dla sidebaru i 30 px dla contenow*/
+}
+
+.contents {
+	width: 100%;
+	float: left;
+
+}
+
+.content-1 {
+	width: 100%;
+	float:left;
+	padding-top: 15px;
+}
+
+.inner-content-1 {
+	background: #343A40;
+	height:8.33vh;
+}
+
+.content-2 {
+	width: 100%;
+	float:left;
+	padding-top: 15px;
+}
+
+.inner-content-2 {
+	background: #343A40;
+	height:8.33vh;
+}
+
+.content-3 {
+	width: 100%;
+	float:left;
+	padding-top: 15px;
+}
+
+.inner-content-3 {
+	background: #343A40;
+	height:8.33vh;
+}
+
+.content-4 {
+	width: 100%;
+	float:left;
+	padding-top: 15px;
+}
+
+.inner-content-4 {
+	background: #343A40;
+	height:8.33vh;
+}
+
+.content-5 {
+	width: 100%;
+	float:left;
+	padding-top: 15px;
+}
+
+.inner-content-5 {
+	background: #343A40;
+	height:8.33vh;
+}
+
+.content-6 {
+	width: 100%;
+	float:left;
+	padding-top: 15px;
+}
+
+.inner-content-6 {
+	background: #343A40;
+	height:8.33vh;
+}
+
+.footer{
+	width: 100%;
+	margin-top: 15px;
+	clear:both;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+}
+
+.inner-footer{
+	background: #1A1C22;
+	height: 100px;
+}

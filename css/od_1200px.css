@@ -1,0 +1,150 @@
+*{
+	box-sizing: border-box;
+}
+
+
+html, body {
+	overflow: auto;
+	height: 100%; 
+	width: 100%;
+	margin: 0; 
+	color: white;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+.header{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: inline-block;
+}
+
+.inner-header{
+	background: #1A1C22;
+	height: 100px;
+}
+
+.sidebar_contents{
+	display: flex;
+	flex-direction: row; 
+	align-content: flex-start;
+	min-height: 400px;
+}
+
+.sidebar {
+	width:400px;
+	float:left;
+	padding-top: 115px;
+}
+
+.inner-sidebar{
+	background: #6C757D;
+	height: 100%;
+}
+
+.contents {
+	width: 100%;
+	float: left;
+}
+
+.content-1 {
+	width: 33.33%;
+	float:left;
+	padding-top: 115px;
+	padding-right: 0px;
+}
+
+.inner-content-1 {
+	background: #343A40;
+	height:29.367vh;
+}
+
+.content-2 {
+	width: 33.33%;
+	float:left;
+	padding-top: 115px;
+	padding-left: 15px;
+}
+
+.inner-content-2 {
+	background: #343A40;
+	height:29.367vh;
+}
+
+.content-3 {
+	width: 33.33%;
+	float:left;
+	padding-top: 115px;
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.inner-content-3 {
+	background: #343A40;
+	height:29.367vh;
+}
+
+.content-4 {
+	width: 33.33%;
+	float:left;
+	padding-top: 15px;
+}
+
+.inner-content-4 {
+	background: #343A40;
+	height:29.367vh;
+}
+
+.content-5 {
+	width: 33.33%;
+	float:left;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-left: 15px;
+}
+
+.inner-content-5 {
+	background: #343A40;
+	height:29.367vh;
+}
+
+.content-6 {
+	width: 33.33%;
+	float:left;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.inner-content-6 {
+	background: #343A40;
+	height:29.367vh;
+}
+
+.footer{
+	width: 100%;
+	margin-top: 15px;
+	clear:both;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.inner-footer{
+	background: #1A1C22;
+	height: 100px;
+}
